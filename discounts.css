@@ -3,3 +3,32 @@
     padding: 0;
     margin: 0;
 }
+
+.sneakers-style{
+    width:20vw;
+    height: 40vh;
+}
+
+.racket-design{
+    width:20vw;
+    height:40vh;
+}
+
+#bycicle_helmet_custom{
+    width:20vw;
+    height:40vh;
+}
+
+.bycicle_custom{
+    width:20vw;
+    height:40vh;
+}
+
+.products-custom{
+    display:flex;
+    justify-content: space-around;
+}
+
+footer{
+    display:flex;
+}
