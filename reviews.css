@@ -17,8 +17,8 @@
 }
 .img1{
     display: flex;
-    width:500px;
-    height:250px;
+    width:50%;
+    height:100%;
 }
 .intro{
     display:flex;
@@ -39,6 +39,7 @@
     padding: 5px;
     width:30%;
     height:80%;
+    border:10px solid red;
 }
 .img-style{
     background-color: grey;
@@ -46,4 +47,24 @@
     flex-direction: row;
     width:100vw;
     height:30vh;
+}
+.img-box{
+    display: flex;
+    width:30%;
+    height:100%;
+    border:10px solid grey;
+}
+.footer-style{
+    display:flex;
+    width:100vw;
+    height:10vh;
+    justify-content:space-around;
+    flex-direction:column;
+    flex:1;
+    background-color: red;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
