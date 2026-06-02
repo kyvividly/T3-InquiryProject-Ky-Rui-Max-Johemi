@@ -36,22 +36,27 @@ button {
     display: flex;
     justify-content: center;
     font-size: 50px;
+    width: 100vw;
 }
 
 .new-product {
-    display: flex;
-    justify-content: center;
+    display: block;
 }
 
-.hero-section {
+.hero-section-h2 {
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 75px;
+    text-align: center;
 }
 
+.hero-section-p {
+    display: flex;
+    font-size: 50px;
+}
 .main-content {
     display: flex;
-    flex-direction: row;;
+    flex-direction: row;
     justify-content: center;
     font-size: 80px;
 }
@@ -68,17 +73,33 @@ button {
 .nikes1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 25px;
 }
 
 .Jordans5 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 25px;
+    margin-right: 100px;
 }
 
-.shoes {
+.shoestitle {
     display: flex;
-    flex-direction: row;
-    
+    justify-content: center;
+    font-size: 85px;
+}
+
+.nikesbutton {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
 }
 
 .footerbuttons {
@@ -89,6 +110,19 @@ button {
 
 .jordanbutton {
     display: flex;
-    width: 500px;
-    height: 200px;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nikesheading {
+    display: flex;
+    justify-content: center;
+}
+
+.shoes {
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
 }
