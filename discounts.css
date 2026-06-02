@@ -29,9 +29,6 @@
     justify-content: space-around;
 }
 
-footer{
-    display:flex;
-}
 .logo {
     margin-right: 300px;
 }
@@ -60,8 +57,18 @@ nav {
     gap: 400px;
     margin-right: 50px;
 }
-.footer {
+
+
+.footerbuttons {
     display: flex;
-    justify-self: center;
+    gap: 228px;
+    flex-wrap: wrap;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+    
+}
