@@ -22,6 +22,73 @@ button {
     width: 5vw;
 }
 
+.imgbutton {
+    display: flex;
+    gap: 400px;
+    margin-right: 50px;
+}
+
 .logo {
-    margin-right: 250px;
+    margin-right: 300px;
+}
+
+.hero-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.new-product {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;
+    font-size: 80px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+    
+}
+
+.nikes1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Jordans5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.shoes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footerbuttons {
+    display: flex;
+    gap: 228px;
+    flex-wrap: wrap;
+}
+
+.jordanbutton {
+    display: flex;
+    width: 500px;
+    height: 200px;
 }
