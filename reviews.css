@@ -4,19 +4,73 @@
     margin: 0;
 }
 
+.sportswear{
+    background-color: grey;
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:30vh;
+    flex:1;
+}
+.img1{
+    display: flex;
+    width:50%;
+    height:100%;
+}
+.intro{
+    display:flex;
+    flex-direction: column;
+}
+.comment-style{
+    background-color: red;
+    display:flex;
+    flex-direction: row;
+    width:100vw;
+    height:30vh;
+}
+.box-style{
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    margin:40px;
+    padding: 5px;
+    width:30%;
+    height:80%;
+    border:10px solid red;
+}
+.img-style{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:30vh;
+}
+.img-box{
+    display: flex;
+    width:30%;
+    height:100%;
+    border:10px solid grey;
+}
+.footer-style{
+    display:flex;
+    width:100vw;
+    height:10vh;
+    justify-content:space-around;
+    flex-direction:column;
+    flex:1;
+    background-color: red;
+}
+
 .logo {
     margin-right: 300px;
 }
 
-button {
-    height: 5vh;
-    width: 5vw;
-}
 
 nav {
     display: flex;
     flex-direction: row;
 }
+
 
 .navbuttons {
     display: flex;
@@ -26,6 +80,7 @@ nav {
     padding: 35px;
 }
 
+
 .imgbutton {
     display: flex;
     gap: 400px;
@@ -34,5 +89,8 @@ nav {
 
 .footer {
     display: flex;
-    justify-self: center;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+    
 }
