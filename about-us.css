@@ -4,6 +4,92 @@
     margin: 0;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    padding: 35px;
+}
+
+button {
+    height: 5vh;
+    width: 5vw;
+}
+
+.imgbutton {
+    display: flex;
+    gap: 400px;
+    margin-right: 50px;
+}
+
+.logo {
+    margin-right: 300px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.hero-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.exigence {
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 700px;
+}
+
+.mission{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.ContactInfo {
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 700px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 75px;
+}
+
+.footerbuttons {
+    display: flex;
+    gap: 250px;
+    font-size: 35px;
+    flex-wrap: nowrap;
+}
+
 .homebutton {
     background-color: #EFEFEF;
     border: 1px solid #767676;

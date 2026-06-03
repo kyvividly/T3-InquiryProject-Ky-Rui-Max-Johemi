@@ -61,14 +61,6 @@ button {
     font-size: 80px;
 }
 
-
-.footer {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    font-size: 50px;
-}
-
 .nikes1 {
     display: flex;
     flex-direction: column;
@@ -107,9 +99,21 @@ button {
     justify-content: center;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 75px;
+}
+
 .footerbuttons {
     display: flex;
-    gap: 320px;
+    gap: 250px;
+    font-size: 35px;
+    margin-top: 40px;
+    flex-wrap: nowrap;
 }
 
 .jordanbutton {
@@ -158,4 +162,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Credits {
+    font-size: 35px;
+}
+
+.credits-p {
+    font-size: 20px;
 }
