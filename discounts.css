@@ -88,6 +88,44 @@ nav {
     flex-wrap: wrap;
 }
 
+.homebutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutbutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewsbutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .custom-bar-style{
     width: 85vw;
     height: 10vh;

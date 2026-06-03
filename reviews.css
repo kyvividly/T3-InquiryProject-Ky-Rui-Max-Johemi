@@ -18,8 +18,12 @@
     height:100%;
 }
 .intro{
-    display:flex;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin-right: 800px;
+    font-size: 30px;
 }
 .comment-style{
     background-color: red;
@@ -37,6 +41,7 @@
     width:30%;
     height:80%;
     border:10px solid red;
+    align-items: center;
 }
 .img-style{
     background-color: grey;
@@ -87,10 +92,6 @@ nav {
     margin-right: 50px;
 }
 
-.footer {
-    display: flex;
-    justify-self: center;
-}
 
 .homebutton {
     background-color: #EFEFEF;
@@ -128,4 +129,28 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 75px;
+}
+
+.footerbuttons {
+    display: flex;
+    gap: 250px;
+    font-size: 35px;
+    margin-top: 40px;
+    flex-wrap: nowrap;
+}
+
+.reviewstitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
 }
