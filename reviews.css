@@ -89,10 +89,9 @@ nav {
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-self: center;
     margin: 30px;
     font-size: 50px;
-    
 }
 
 .homebutton {

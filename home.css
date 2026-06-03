@@ -67,7 +67,6 @@ button {
     justify-content: center;
     margin: 30px;
     font-size: 50px;
-    
 }
 
 .nikes1 {
@@ -114,17 +113,8 @@ button {
     height: 40px;
     justify-content: center;
     align-items: center;
-}
-
-.nikesheading {
-    display: flex;
-    justify-content: center;
-}
-
-.shoes {
-    display: flex;
-    flex-direction: row;
-    gap: 450px;
+    width: 500px;
+    height: 200px;
 }
 
 .homebutton {
@@ -139,7 +129,6 @@ button {
     align-items: center;
 }
 
-
 .aboutbutton {
     background-color: #EFEFEF;
     border: 1px solid #767676;
@@ -148,10 +137,9 @@ button {
     height: 45px;
     color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    gap: 450px;
 }
-
 
 .reviewsbutton {
     background-color: #EFEFEF;
