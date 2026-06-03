@@ -29,9 +29,18 @@
     justify-content: space-around;
 }
 
+.hero-style{
+    background-color:red;
+    width:100vw;
+    height:30vh;
+}
+
 footer{
     display:flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
+
 .logo {
     margin-right: 300px;
 }
@@ -65,3 +74,18 @@ nav {
     justify-self: center;
 }
 
+.custom-bar-style{
+    width: 85vw;
+    height: 10vh;
+    background-color: rgba(227, 215, 215, 0.842);
+    border-radius: 7px;
+    margin:5px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.custon-bar-2{
+    display: flex;
+    justify-content: space-around;
+}
