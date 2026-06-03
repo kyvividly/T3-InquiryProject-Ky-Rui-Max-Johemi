@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+<<<<<<< HEAD
 .homebutton {
     background-color: #EFEFEF;
     border: 1px solid #767676;
@@ -11,11 +12,62 @@
     width: 85px;
     height: 45px;
     color: black;
+=======
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    padding: 35px;
+}
+
+button {
+    height: 5vh;
+    width: 5vw;
+}
+
+.imgbutton {
+    display: flex;
+    gap: 400px;
+    margin-right: 50px;
+}
+
+.logo {
+    margin-right: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+}
+
+.footerbuttons {
+    display: flex;
+    gap: 228px;
+    flex-wrap: wrap;
+}
+
+.homebutton {
+    background-color: #EFEFEF; 
+    border: 1px solid #767676; 
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black; 
+>>>>>>> main
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
 
 .aboutbutton {
     background-color: #EFEFEF;
@@ -24,11 +76,21 @@
     width: 85px;
     height: 45px;
     color: black;
+=======
+.aboutbutton {
+    background-color: #EFEFEF; 
+    border: 1px solid #767676; 
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black; 
+>>>>>>> main
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
 
 .reviewsbutton {
     background-color: #EFEFEF;
@@ -41,3 +103,16 @@
     justify-content: center;
     align-items: center;
 }
+=======
+.reviewsbutton {
+    background-color: #EFEFEF; 
+    border: 1px solid #767676; 
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> main

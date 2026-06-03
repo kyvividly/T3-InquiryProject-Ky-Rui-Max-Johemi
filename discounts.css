@@ -4,6 +4,31 @@
     margin: 0;
 }
 
+.sneakers-style{
+    width:20vw;
+    height: 40vh;
+}
+
+.racket-design{
+    width:20vw;
+    height:40vh;
+}
+
+#bycicle_helmet_custom{
+    width:20vw;
+    height:40vh;
+}
+
+.bycicle_custom{
+    width:20vw;
+    height:40vh;
+}
+
+.products-custom{
+    display:flex;
+    justify-content: space-around;
+}
+
 .logo {
     margin-right: 300px;
 }
@@ -32,11 +57,15 @@ nav {
     gap: 400px;
     margin-right: 50px;
 }
-.footer {
+
+
+.footerbuttons {
     display: flex;
-    justify-self: center;
+    gap: 228px;
+    flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .homebutton {
     background-color: #EFEFEF;
     border: 1px solid #767676;
@@ -74,3 +103,12 @@ nav {
     justify-content: center;
     align-items: center;
 }
+=======
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+    
+}
+>>>>>>> main
