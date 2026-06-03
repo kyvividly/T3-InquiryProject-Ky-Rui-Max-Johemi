@@ -109,6 +109,10 @@ button {
 
 .jordanbutton {
     display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
     width: 500px;
     height: 200px;
 }
@@ -125,7 +129,6 @@ button {
     align-items: center;
 }
 
-
 .aboutbutton {
     background-color: #EFEFEF;
     border: 1px solid #767676;
@@ -138,6 +141,7 @@ button {
     align-items: center;
 }
 
+
 .reviewsbutton {
     background-color: #EFEFEF;
     border: 1px solid #767676;
@@ -149,3 +153,4 @@ button {
     justify-content: center;
     align-items: center;
 }
+

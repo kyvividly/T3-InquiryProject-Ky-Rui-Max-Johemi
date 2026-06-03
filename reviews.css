@@ -90,6 +90,8 @@ nav {
 .footer {
     display: flex;
     justify-self: center;
+    margin: 30px;
+    font-size: 50px;
 }
 
 .homebutton {
@@ -103,7 +105,6 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
 
 .aboutbutton {
     background-color: #EFEFEF;
@@ -128,4 +129,3 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
