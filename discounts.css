@@ -29,7 +29,6 @@
     justify-content: space-around;
 }
 
-<<<<<<< HEAD
 .hero-style{
     background-color:red;
     width:100vw;
@@ -40,14 +39,13 @@
     align-items: center;
 }
 
-footer{
-    display:flex;
-    justify-content: space-around;
-    flex-direction: column;
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
 }
 
-=======
->>>>>>> feautre/new-page-Maximilian
 .logo {
     width: 30%;
     margin-right: 300px;
@@ -61,7 +59,7 @@ button {
 
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100vw;
 
 }
@@ -71,7 +69,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* gap: 150px; */
+    gap: 150px;
     width: 70%;
     padding: 35px;
 }
@@ -90,7 +88,6 @@ nav {
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .custom-bar-style{
     width: 85vw;
     height: 10vh;
@@ -108,53 +105,7 @@ nav {
 }
 
 .logo-image-style{
-=======
-.footer {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    font-size: 50px;
-    
-}
-
-.homebutton {
-    background-color: #EFEFEF;
-    border: 1px solid #767676;
-    border-radius: 2px;
-    width: 85px;
-    height: 45px;
-    color: black;
->>>>>>> feautre/new-page-Maximilian
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-<<<<<<< HEAD
-=======
-
-.aboutbutton {
-    background-color: #EFEFEF;
-    border: 1px solid #767676;
-    border-radius: 2px;
-    width: 85px;
-    height: 45px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.reviewsbutton {
-    background-color: #EFEFEF;
-    border: 1px solid #767676;
-    border-radius: 2px;
-    width: 85px;
-    height: 45px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
->>>>>>> feautre/new-page-Maximilian
