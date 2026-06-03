@@ -33,6 +33,10 @@
     background-color:red;
     width:100vw;
     height:30vh;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
@@ -42,6 +46,7 @@ footer{
 }
 
 .logo {
+    width: 30%;
     margin-right: 300px;
 }
 
@@ -53,20 +58,25 @@ button {
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100vw;
+
 }
 
 .navbuttons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 150px;
+    justify-content: space-between;
+    /* gap: 150px; */
+    width: 70%;
     padding: 35px;
 }
 
 .imgbutton {
     display: flex;
-    gap: 400px;
+    /* gap: 400px; */
+    justify-content: space-between;
     margin-right: 50px;
 }
 .footer {
@@ -89,3 +99,10 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
+.logo-image-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
