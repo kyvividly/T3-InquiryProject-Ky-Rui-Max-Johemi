@@ -137,10 +137,9 @@ button {
     height: 45px;
     color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    gap: 450px;
 }
-
 
 .reviewsbutton {
     background-color: #EFEFEF;
@@ -153,4 +152,3 @@ button {
     justify-content: center;
     align-items: center;
 }
-
