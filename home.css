@@ -67,7 +67,6 @@ button {
     justify-content: center;
     margin: 30px;
     font-size: 50px;
-    
 }
 
 .nikes1 {
@@ -125,4 +124,28 @@ button {
     display: flex;
     flex-direction: row;
     gap: 450px;
+}
+
+.homebutton {
+    background-color: #EFEFEF; 
+    border: 1px solid #767676; 
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutbutton {
+    background-color: #EFEFEF; 
+    border: 1px solid #767676; 
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
