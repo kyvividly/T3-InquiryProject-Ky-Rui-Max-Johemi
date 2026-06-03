@@ -29,6 +29,7 @@
     justify-content: space-around;
 }
 
+<<<<<<< HEAD
 .hero-style{
     background-color:red;
     width:100vw;
@@ -45,6 +46,8 @@ footer{
     flex-direction: column;
 }
 
+=======
+>>>>>>> feautre/new-page-Maximilian
 .logo {
     width: 30%;
     margin-right: 300px;
@@ -79,11 +82,15 @@ nav {
     justify-content: space-between;
     margin-right: 50px;
 }
-.footer {
+
+
+.footerbuttons {
     display: flex;
-    justify-self: center;
+    gap: 228px;
+    flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .custom-bar-style{
     width: 85vw;
     height: 10vh;
@@ -101,8 +108,53 @@ nav {
 }
 
 .logo-image-style{
+=======
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+    
+}
+
+.homebutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
+>>>>>>> feautre/new-page-Maximilian
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+
+.aboutbutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reviewsbutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> feautre/new-page-Maximilian
