@@ -109,42 +109,42 @@ button {
 
 .jordanbutton {
     display: flex;
-    width: 100px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
-.nikesheading {
-    display: flex;
-    justify-content: center;
-}
-
-.shoes {
-    display: flex;
-    flex-direction: row;
-    gap: 450px;
+    width: 500px;
+    height: 200px;
 }
 
 .homebutton {
-    background-color: #EFEFEF; 
-    border: 1px solid #767676; 
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
     border-radius: 2px;
     width: 85px;
     height: 45px;
-    color: black; 
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .aboutbutton {
-    background-color: #EFEFEF; 
-    border: 1px solid #767676; 
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
     border-radius: 2px;
     width: 85px;
     height: 45px;
-    color: black; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewsbutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;

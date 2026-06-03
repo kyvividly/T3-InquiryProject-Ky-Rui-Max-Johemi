@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+.homebutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
 nav {
     display: flex;
     flex-direction: row;
@@ -69,13 +76,14 @@ button {
     align-items: center;
 }
 
+
 .reviewsbutton {
-    background-color: #EFEFEF; 
-    border: 1px solid #767676; 
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
     border-radius: 2px;
     width: 85px;
     height: 45px;
-    color: black; 
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
