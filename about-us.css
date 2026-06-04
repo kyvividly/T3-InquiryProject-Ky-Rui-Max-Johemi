@@ -4,13 +4,6 @@
     margin: 0;
 }
 
-.homebutton {
-    background-color: #EFEFEF;
-    border: 1px solid #767676;
-    border-radius: 2px;
-    width: 85px;
-    height: 45px;
-    color: black;
 nav {
     display: flex;
     flex-direction: row;
@@ -39,38 +32,84 @@ button {
     margin-right: 300px;
 }
 
-.footer {
+.hero-section {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    align-items: center;
     font-size: 50px;
+
 }
 
-.footerbuttons {
-    display: flex;
-    gap: 228px;
-    flex-wrap: wrap;
-}
-
-.homebutton {
-    background-color: #EFEFEF; 
-    border: 1px solid #767676; 
-    border-radius: 2px;
-    width: 85px;
-    height: 45px;
-    color: black; 
+.hero-picture {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.aboutbutton {
-    background-color: #EFEFEF; 
-    border: 1px solid #767676; 
+.location {
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.exigence {
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 700px;
+}
+
+.mission{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.ContactInfo {
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    margin-left: 700px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 75px;
+}
+
+.footerbuttons {
+    display: flex;
+    gap: 250px;
+    font-size: 35px;
+    flex-wrap: nowrap;
+}
+
+.homebutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
     border-radius: 2px;
     width: 85px;
     height: 45px;
-    color: black; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutbutton {
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    width: 85px;
+    height: 45px;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;

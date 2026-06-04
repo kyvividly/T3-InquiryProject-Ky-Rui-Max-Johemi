@@ -30,6 +30,7 @@
 }
 
 .logo {
+    width: 30%;
     margin-right: 300px;
 }
 
@@ -41,20 +42,25 @@ button {
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100vw;
+
 }
 
 .navbuttons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 150px;
+    justify-content: space-between;
+    /* gap: 150px; */
+    width: 70%;
     padding: 35px;
 }
 
 .imgbutton {
     display: flex;
-    gap: 400px;
+    /* gap: 400px; */
+    justify-content: space-between;
     margin-right: 50px;
 }
 
@@ -101,11 +107,4 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    font-size: 50px;
 }
