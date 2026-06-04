@@ -109,6 +109,10 @@ button {
 
 .jordanbutton {
     display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
     width: 500px;
     height: 200px;
 }
