@@ -61,14 +61,6 @@ button {
     font-size: 80px;
 }
 
-
-.footer {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    font-size: 50px;
-}
-
 .nikes1 {
     display: flex;
     flex-direction: column;
@@ -94,6 +86,12 @@ button {
     font-size: 85px;
 }
 
+.shoes {
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+}
+
 .nikesbutton {
     display: flex;
     width: 100px;
@@ -101,10 +99,21 @@ button {
     justify-content: center;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 75px;
+}
+
 .footerbuttons {
     display: flex;
-    gap: 228px;
-    flex-wrap: wrap;
+    gap: 250px;
+    font-size: 35px;
+    margin-top: 40px;
+    flex-wrap: nowrap;
 }
 
 .jordanbutton {
@@ -137,10 +146,11 @@ button {
     height: 45px;
     color: black;
     display: flex;
+    flex-direction: row;
+    gap: 450px;
     justify-content: center;
     align-items: center;
 }
-
 
 .reviewsbutton {
     background-color: #EFEFEF;
@@ -154,3 +164,10 @@ button {
     align-items: center;
 }
 
+.Credits {
+    font-size: 35px;
+}
+
+.credits-p {
+    font-size: 20px;
+}
